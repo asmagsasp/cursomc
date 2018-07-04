@@ -26,7 +26,7 @@ public enum TipoCliente {
 		}
 		
 		for (TipoCliente x : TipoCliente.values() ) {
-			if (x.equals(x.getCod())) {
+			if (cod.equals(x.getCod())) {
 				return x;
 			}
 		}
